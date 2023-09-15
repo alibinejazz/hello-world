@@ -12,6 +12,6 @@ import org.springframework.web.service.annotation.GetExchange;
 public class HelloController {
     @GetMapping("/")
     public String hello(){
-        return "Hi this is ali from BALF";
+        return "Hi this is ali";
     }
 }
